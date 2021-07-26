@@ -24,3 +24,25 @@
 ## How to deploy ReislerOnlineBot
 ### Heroku Deploy
   - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/ReislerSupport/ReislerOnline)
+{
+  " name " : " Telgraf Yükleme Botu " ,
+  " açıklama " : " telegra.ph bağlantı yükleyici botuna giden basit bir küçük ortam veya dosya " ,
+  " depo " : " https://github.com/FayasNoushad/Telegraph-Uploader-Bot " ,
+  " anahtar kelimeler " : [ " telgraf " , " dosya veya medya " , " bağlantı yükleyici " , " telgraf botu " ],
+  " env " : {
+    " BOT_TOKEN " : {
+      " description " : " @Botfather'dan Bot jetonunuz "
+    },
+    " API_ID " : {
+      " description " : " https://my.telegram.org/apps adresinden API_ID'niz "
+    },
+    " API_HASH " : {
+      " description " : " https://my.telegram.org/apps adresinden API_HASH'iniz "
+    }
+   },
+   " yapı paketleri " : [
+    {
+      " url " : " heroku/python "
+    }
+  ]
+}
