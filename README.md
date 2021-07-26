@@ -21,3 +21,6 @@
 - `version` gets the current version
 - `play again` create a new game with same options and offer a request to all of players
 
+## How to deploy catuserbot
+### Heroku Deploy
+  - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Mr-confused/nekopack)
